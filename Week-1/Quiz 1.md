@@ -16,15 +16,13 @@ I take my own data, analyze it again, and publish new findings.
 > Which of the following is a requirement for a published data analysis to be reproducible?
  
 The investigator makes available his computer, on which the analysis was originally conducted. 			
- 
-**The data analysis is conducted using R.**		
-
+The data analysis is conducted using R.	
 The investigator's final publication is made available free of charge. 	Inorrect 	0.00 	
 ```
 The investigator makes the analytic data publicly available. 			
 ```
 
-**This text will be bold**
+
 -------------------------- 	
 ####Question 3
 > Which of the following is an example of a reproducible study?
@@ -73,13 +71,13 @@ It transforms the computational results into figures and tables.
 
 -------------------------- 	
 ####Question 7
-Which is a goal of literate statistical programming?
-Your Answer 		Score 	Explanation
+> Which is a goal of literate statistical programming?
+ 
 Ensure that data analysis documents are always exported in PDF format. 			
 Require that data analysis summaries are always written in LaTeX. 			
-Combine explanatory text and data analysis code in a single document. 	Correct 	1.00 	
+**Combine explanatory text and data analysis code in a single document. 	Correct 	1.00** 	
 Separate figures and tables from other data analytic summaries. 			
-Total 		1.00 / 1.00 	
+ 
 
 -------------------------- 	
 ####Question 8
