@@ -51,7 +51,8 @@ Most studies today are small-scale and easily replicated.
 > What is the role of processing code in the research pipeline?
  
 It conducts the statistical analysis of the primary outcome. 	Inorrect 	0.00 	
-It transforms the analytic data into computational results. 
+It transforms the analytic data into computational results.
+
 **It transforms the measured data into analytic data.**
 It transforms the computational results into figures and tables. 			
  
@@ -82,9 +83,11 @@ Transform a literate program from R to python.
  
 A program that views PDF files. 			
 A Unix-based computer system. 			
-A cloud-based computing service for running computations. 			
+A cloud-based computing service for running computations. 
+
 **A programming language like R. 	Correct 	1.00**
 A web server for publishing documents. 	Inorrect 	0.00
+
 **A documentation language like LaTeX. 	Correct 	1.00**
 
 -------------------------- 	
