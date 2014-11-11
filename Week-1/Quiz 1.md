@@ -16,7 +16,7 @@ I take my own data, analyze it again, and publish new findings.
 The investigator makes available his computer, on which the analysis was originally conducted. 			
 The data analysis is conducted using R.	
 The investigator's final publication is made available free of charge. 	Inorrect 	0.00 	
-**The investigator makes the analytic data publicly available. 			**
+**The investigator makes the analytic data publicly available.**
 
 -------------------------- 	
 ####Question 3
@@ -74,7 +74,7 @@ Separate figures and tables from other data analytic summaries.
 Transform the literate program into a machine readable code file. 			
 Compress the literate program so that it takes up less space. 			
 Transform a literate program from R to python. 			
- 
+
 
 -------------------------- 	
 ####Question 9
@@ -86,7 +86,6 @@ A cloud-based computing service for running computations.
 **A programming language like R. 	Correct 	1.00**
 A web server for publishing documents. 	Inorrect 	0.00
 **A documentation language like LaTeX. 	Correct 	1.00**
- 
 
 -------------------------- 	
 ####Question 10
