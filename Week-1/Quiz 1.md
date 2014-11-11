@@ -16,7 +16,7 @@ I take my own data, analyze it again, and publish new findings.
 > Which of the following is a requirement for a published data analysis to be reproducible?
  
 The investigator makes available his computer, on which the analysis was originally conducted. 			
-The data analysis is conducted using R. 			
+** The data analysis is conducted using R. 	**		
 The investigator's final publication is made available free of charge. 	Inorrect 	0.00 	
 ```
 The investigator makes the analytic data publicly available. 			
