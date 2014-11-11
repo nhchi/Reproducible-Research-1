@@ -6,7 +6,6 @@ I give my data to an independent investigator at another institution, she analyz
 An investigator at another institution conducts a study addressing the same question, collects her own data, analyzes it separately from me, and publishes her own findings. 			
 **An investigator at another institution conducts a study addressing a different scientific question 
 and publishes her findings.** 	
-
 I take my own data, analyze it again, and publish new findings. 			
 
 -------------------------- 	
@@ -17,10 +16,7 @@ I take my own data, analyze it again, and publish new findings.
 The investigator makes available his computer, on which the analysis was originally conducted. 			
 The data analysis is conducted using R.	
 The investigator's final publication is made available free of charge. 	Inorrect 	0.00 	
-```
-The investigator makes the analytic data publicly available. 			
-```
-
+**The investigator makes the analytic data publicly available. 			**
 
 -------------------------- 	
 ####Question 3
@@ -29,9 +25,7 @@ The investigator makes the analytic data publicly available.
 The study's original authors re-run their computer code on their analytic data and confirm publicly that the findings match those of the published results. 			
 The study's analytic data and computer code are not publicly available, but the study was simple enough to be repeated by an independent investigator. 			
 The study's analytic data are publicly available, but the computer code is not. 			
-```
-The study's analytic data and computer code for the data analysis are publicly available. When the code is run on the analytic data, the findings are identical to the published results. 	Correct 	1.00 	
-``` 	
+**The study's analytic data and computer code for the data analysis are publicly available. When the code is run on the analytic data, the findings are identical to the published results. 	Correct 	1.00**
 
 -------------------------- 	
 ####Question 4
@@ -40,9 +34,7 @@ The study's analytic data and computer code for the data analysis are publicly a
 The original study had null findings. 			
 The original investigator does not want to make the analytic data available. 			
 The original study was conducted by a well-known investigator. 		
-```
-The original study was opportunistic in its timing and it would be difficult to find a similar context in which to repeat it. 	Correct 	1.00 	
-```
+**The original study was opportunistic in its timing and it would be difficult to find a similar context in which to repeat it. 	Correct 	1.00**
 
 -------------------------- 	
 ####Question 5
@@ -50,9 +42,7 @@ The original study was opportunistic in its timing and it would be difficult to 
  
 Computing power is limited today, making it difficult to apply sophisticated statistical methods. 			
 The statistical methods for most studies can be accurately described using plain language. 	Inorrect 	0.00 	
-```
-New technologies are increasing the rate of data collection, creating datasets that are more complex and extremely high dimensional. 			
-```
+**New technologies are increasing the rate of data collection, creating datasets that are more complex and extremely high dimensional.**
 Most studies today are small-scale and easily replicated. 			
  
 
@@ -62,9 +52,7 @@ Most studies today are small-scale and easily replicated.
  
 It conducts the statistical analysis of the primary outcome. 	Inorrect 	0.00 	
 It transforms the analytic data into computational results. 
-```
-It transforms the measured data into analytic data. 			
-```
+**It transforms the measured data into analytic data.**
 It transforms the computational results into figures and tables. 			
  
 
@@ -80,33 +68,34 @@ Separate figures and tables from other data analytic summaries.
 
 -------------------------- 	
 ####Question 8
-What does it mean to weave a literate statistical program?
-Your Answer 		Score 	Explanation
-Transform the literate program into a human readable document. 	Correct 	1.00 	
+> What does it mean to weave a literate statistical program?
+ 
+**Transform the literate program into a human readable document. 	Correct 	1.00** 	
 Transform the literate program into a machine readable code file. 			
 Compress the literate program so that it takes up less space. 			
 Transform a literate program from R to python. 			
-Total 		1.00 / 1.00 
+ 
 
 -------------------------- 	
 ####Question 9
-Which of the following is required to implement a literate programming system?
-Your Answer 		Score 	Explanation
+> Which of the following is required to implement a literate programming system?
+ 
 A program that views PDF files. 			
 A Unix-based computer system. 			
 A cloud-based computing service for running computations. 			
-A programming language like R. 	Correct 	1.00 
+**A programming language like R. 	Correct 	1.00**
 A web server for publishing documents. 	Inorrect 	0.00
-Total 		1.00 / 1.00 
+**A documentation language like LaTeX. 	Correct 	1.00**
+ 
 
 -------------------------- 	
 ####Question 10
-What is one way in which the knitr system differs from Sweave?
-Your Answer 		Score 	Explanation
-knitr allows for the use of markdown instead of LaTeX. 			
+> What is one way in which the knitr system differs from Sweave?
+ 
+**knitr allows for the use of markdown instead of LaTeX.**	
 knitr lacks features like caching of code chunks. 			
 knitr is written in python instead of R. 	Inorrect 	0.00 	
 knitr was developed by Friedrich Leisch. 			
-Total 		0.00 / 1.00
+ 
 
 -------------------------- 	
