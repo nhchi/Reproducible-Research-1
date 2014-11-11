@@ -4,10 +4,9 @@
  
 I give my data to an independent investigator at another institution, she analyzes the data and gets the same results as I originally obtained. 	Inorrect 	0.00 	
 An investigator at another institution conducts a study addressing the same question, collects her own data, analyzes it separately from me, and publishes her own findings. 			
-```
-An investigator at another institution conducts a study addressing a different scientific question 
-and publishes her findings. 	
-```
+**An investigator at another institution conducts a study addressing a different scientific question 
+and publishes her findings.** 	
+
 I take my own data, analyze it again, and publish new findings. 			
 
 -------------------------- 	
