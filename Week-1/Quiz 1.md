@@ -23,6 +23,7 @@ The investigator's final publication is made available free of charge. 	Inorrect
 The investigator makes the analytic data publicly available. 			
 ```
 
+**This text will be bold**
 -------------------------- 	
 ####Question 3
 > Which of the following is an example of a reproducible study?
