@@ -1,6 +1,6 @@
 ####First markdown code
 
-#####Go to edit status, and copy/paste all code into Rstudio R markdown editor, then run 'knit HTML' button in the top of editor which located in the left of 'run' button
+#####Go to edit status for thsi page, and copy/paste all code there into Rstudio R markdown editor, then run 'knit HTML' button in the top of editor which located in the left of 'run' button
 
 My first mark
 =========================================
