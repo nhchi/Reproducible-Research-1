@@ -148,7 +148,7 @@ table(predictedSpam,testSpam$type)
 - Lead with the question
 - Summarize the analyses into the story
 - Don't inculde every analysis, include it
-  -If it is needed for the story
+  - If it is needed for the story
   - If it is needed to address a challenge
 - Order analyses according to the story, rather than chronologically
 - Include "pretty" figures that contribute to the story
