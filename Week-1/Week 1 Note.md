@@ -45,11 +45,114 @@
 #trainIndicator
 #   0    1 
 #2351 2250
+> trainSpam = spam[trainIndicator == 1,]
+> testSpam = spam[trainIndicator == 0,]
+# half is train data, the orther is test data
 ```
+- Look a summaries of the data
+- Check of missing data
+- Creat exploratory plots
+- Perform exploratory analyses(e.g clustering)
+```
+> names(trainSpam)# column names
+ [1] "make"              "address"           "all"              
+ [4] "num3d"             "our"               "over" 
+ 
+> table(trainSpam$type)
+nonspam    spam 
+   1357     893 
+   
+> head(trainSpam)# frequency
+   make address  all num3d  our over remove internet order mail
+2  0.21    0.28 0.50     0 0.14 0.28   0.21     0.07  0.00 0.94
+6  0.00    0.00 0.00     0 1.85 0.00   0.00     1.85  0.00 0.00
+8  0.00    0.00 0.00     0 1.88 0.00   0.00     1.88  0.00 0.00
+9  0.15    0.00 0.46     0 0.61 0.00   0.30     0.00  0.92 0.76
+10 0.06    0.12 0.77     0 0.19 0.32   0.38     0.00  0.06 0.00
+13 0.00    0.69 0.34     0 0.34 0.00   0.00     0.00  0.00 0.00
+> plot(trainSpam$capitalAve ~ trainSpam$type) # data distribution is skewed 
+
+> plot(log10(trainSpam$capitalAve+1) ~ trainSpam$type)# using log function
+
+> plot(log10(trainSpam[,1:4]+1))# relationship between predictions, pairs of plots
+
+> hCluster = hclust(dist(t(trainSpam[,1:57])))# hierarchical cluster analysis
+> plot(hCluster)# useful for skewed data, but need transfermation
+
+> hClusterUpdated = hclust(dist(t(log10(trainSpam[,1:55]+1))))
+> plot(hClusterUpdated)
+
+ ```
 ######7. statistical prediction/modeling
+- Informed by the results of exploratroy analysis
+- Exact methods depend on the question of interest
+- Tranformation/processing should be accounted for when necessary
+- Measures of uncertainty should be reported
+```
+trainSpam$numType = as.numeric(trainSpam$type)-1
+costFunction = function(x,y) sum(x !=(y>0.5))
+cvError = rep(NA,55)
+library(boot)
+for(i in 1:55){
+  lmFormula = reformulate(names(trainSpam)[i],response ='numType')
+  glmFit = glm(lmFormula, data = trainSpam,family = "binomial")
+  cvError[i] = cv.glm(trainSpam, glmFit, costFunction, 2)$delta[2]
+}
+
+# Which predictor hsa minimum cross-validatied error?
+names(trainSpam)[which.min(cvError)]
+
+# Use the best model from the group
+predictionModel = glm(numType ~ charDollar, family = 'binomial',data = trainSpam)
+
+# Get predictions on the best set
+predictionTest = predict(predictionModel,testSpam)
+predictedSpam = rep("nonSpam", dim(testSpam)[1])
+
+# Classify as "spam" for those with prob>0.5
+predictedSpam[predictionModel$fitted.0.5] = "spam"
+
+# Classification table
+table(predictedSpam,testSpam$type)
+
+# predictedSpam nonspam spam
+# nonSpam    1431  920
+
+# error rate
+(61+458)/(1346+458+61+449)
+# [1] 0.2242869
+```
+
 ######8. interpret results
+- Use the appropriate language
+-- describes
+-- correlates with/associated with
+-- leads to/causes
+-- predicts
+- Give an explanation
+- Interpret coefficients
+- Interpret measures of uncertatinty
+
 ######9. challenge results
+- Challenge all steps:
+-- Question
+-- Data source
+-- Processing
+-- Analysis
+-- Conclusions
+- Challenge measures of uncertanity
+- Challenge choices of terms to include in models
+- Potential alternative analyses
+
 ######10. synthesize/write up results
+- Lead with the question
+- Summarize the analyses into the story
+- Don't inculde every analysis, include it
+-- If it is needed for the story
+-- If it is needed to address a challenge
+- Order analyses according to the story, rather than chronologically
+- Include "pretty" figures that contribute to the story
+
 ######11. create reproducible code
 
 ####Possible resource to access data set
