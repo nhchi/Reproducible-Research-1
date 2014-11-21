@@ -1,4 +1,4 @@
-#####Steps in data analysis
+####Steps in data analysis
 
 ######1. define the question
 - Statistical methods development
@@ -52,7 +52,7 @@
 ######10. synthesize/write up results
 ######11. create reproducible code
 ```
-#####Possible resource to access data set
+####Possible resource to access data set
 ```
 UCI Machine Lerning Reopsitory
 Spambase Data Set for Email Spam/Ham
