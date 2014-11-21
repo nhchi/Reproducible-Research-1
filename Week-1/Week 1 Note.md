@@ -1,20 +1,18 @@
 #####Steps in data analysis
 
 ######1. define the question
-```
 - Statistical methods development
 - Danger zone
 - Proper data analysis
-```
+
 ######2. define the ideal data set
-```
 - Descriptive - a whole population
 - Exploratory - a random sample with many variables measured
 - Inferential - the right population, randomly sampled
 - Predictive - a training data set and test data set from the same population
 - Causal - data from a randomized study
 - Mechanistic - data about all components of the system
-```
+
 ######3. determine what data you can access
 - Get free online
 - Buy
@@ -22,14 +20,12 @@
 - Generate it yourself
 
 ######4. obtain the data
-```
 - Try to obtain the raw dat
 - Be sure to reference the source
 - Polite emails go a long way
 - If you will load the data from an internet source, record the url and time accessed
-```
+
 ######5. clean the data
-```
 - Raw data often needs to be processed
 - If it is pre-processed, make sure you understand how
 - Understand the source of the data(census, sample, convenience sample)
