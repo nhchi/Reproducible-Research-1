@@ -125,21 +125,21 @@ table(predictedSpam,testSpam$type)
 
 ######8. interpret results
 - Use the appropriate language
--- describes
--- correlates with/associated with
--- leads to/causes
--- predicts
+  - describes
+  - correlates with/associated with
+  - leads to/causes
+  - predicts
 - Give an explanation
 - Interpret coefficients
 - Interpret measures of uncertatinty
 
 ######9. challenge results
 - Challenge all steps:
--- Question
--- Data source
--- Processing
--- Analysis
--- Conclusions
+  - Question
+  - Data source
+  - Processing
+  - Analysis
+  - Conclusions
 - Challenge measures of uncertanity
 - Challenge choices of terms to include in models
 - Potential alternative analyses
@@ -148,8 +148,8 @@ table(predictedSpam,testSpam$type)
 - Lead with the question
 - Summarize the analyses into the story
 - Don't inculde every analysis, include it
--- If it is needed for the story
--- If it is needed to address a challenge
+  -If it is needed for the story
+  - If it is needed to address a challenge
 - Order analyses according to the story, rather than chronologically
 - Include "pretty" figures that contribute to the story
 
