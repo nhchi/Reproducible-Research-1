@@ -1,5 +1,5 @@
 ######Steps in data analysis
-```
+
 1. define the question
 2. define the ideal data set
 3. determine what data you can access
@@ -24,7 +24,7 @@
 9. challenge results
 10. synthesize/write up results
 11. create reproducible code
-```
+
 #####Possible resource to access data set
 ```
 UCI Machine Lerning Reopsitory
