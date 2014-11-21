@@ -20,12 +20,14 @@
 - Buy
 - Respect teh terms of use
 - Generate it yourself
+
 ######4. obtain the data
+```
 - Try to obtain the raw dat
 - Be sure to reference the source
 - Polite emails go a long way
 - If you will load the data from an internet source, record the url and time accessed
-- 
+```
 ######5. clean the data
 ```
 - Raw data often needs to be processed
