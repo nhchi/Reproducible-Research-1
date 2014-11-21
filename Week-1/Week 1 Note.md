@@ -167,12 +167,12 @@ http://search.r-project.org/library/kernlab/html/spam.html
 ####Organized analysis
 - Data
   - Raw
-   - Stored in analysis folder
-   - Source, web url, data accessed in README
+    - Stored in analysis folder
+    - Source, web url, data accessed in README
   - Processed data
-   - Named properly
-   - Processed script
-   - Tity
+    - Named properly
+    - Processed script
+    - Tity
 - Figures
   - Exploratory figures
   - Final
