@@ -171,16 +171,31 @@ http://search.r-project.org/library/kernlab/html/spam.html
     - Source, web url, data accessed in README
   - Processed data
     - Named properly
-    - Processed script
-    - Tity
+    - Processing script
+    - Tidy
 - Figures
   - Exploratory figures
+    - Do not need to be pretty
+    - During of the analysis
   - Final
+    - Axes/colors set to make the figure clear
+    - Possibly multiple panels
+    - Subset of original plot
 - R code
   - Raw/unused scripts
+    - Less commented
+    - Multiple versions
+    - Inculde analysis that are later discarded
   - Final
+    - Clearl commentd
+    - Processing details
+    - Only analyses appear in final write-up
   - R markdown files
 - Text
   - README files
+    - Step by step process of analysis
   - Text of analysis/report
+    - Title, introduction(motivation),methods(statistics),results(measures of uncertainty), conclusions(potential problems)
+    - Tell a story
+    - Reference
 
