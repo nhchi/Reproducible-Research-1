@@ -14,10 +14,10 @@
 - understand the source of the data(census, sample, convenience sample)
 - may need reformining, subsampling
 - determine if the data are good enough
-    > library(kernlab)
-    > library(kernlab)
-    > data(spam)
-    > str(spam[,1:5])
+            > library(kernlab)
+            > library(kernlab)
+            > data(spam)
+            > str(spam[,1:5])
 6. explortory data analysis
 7. statistical prediction/modeling
 8. interpret results
