@@ -51,8 +51,9 @@
 ######9. challenge results
 ######10. synthesize/write up results
 ######11. create reproducible code
-```
+
 ####Possible resource to access data set
+
 ```
 UCI Machine Lerning Reopsitory
 Spambase Data Set for Email Spam/Ham
