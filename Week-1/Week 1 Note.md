@@ -164,4 +164,23 @@ http://archive.ics.uci.edu/ml/datasets/Spambase
 http://search.r-project.org/library/kernlab/html/spam.html
 ```
 
+####Organized analysis
+- Data
+  - Raw
+   - Stored in analysis folder
+   - Source, web url, data accessed in README
+  - Processed data
+   - Named properly
+   - Processed script
+   - Tity
+- Figures
+  - Exploratory figures
+  - Final
+- R code
+  - Raw/unused scripts
+  - Final
+  - R markdown files
+- Text
+  - README files
+  - Text of analysis/report
 
