@@ -86,11 +86,11 @@ A program that views PDF files.
 A Unix-based computer system. 			
 A cloud-based computing service for running computations. 
 
-**A programming language like R. 	**
+**A programming language like R.**
 
 A web server for publishing documents. 	
 
-**A documentation language like LaTeX. **
+**A documentation language like LaTeX.**
 
 -------------------------- 	
 ####Question 10
