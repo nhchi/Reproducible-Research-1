@@ -25,7 +25,7 @@ The investigator's final publication is made available free of charge.
 The study's original authors re-run their computer code on their analytic data and confirm publicly that the findings match those of the published results. 			
 The study's analytic data and computer code are not publicly available, but the study was simple enough to be repeated by an independent investigator. 			
 The study's analytic data are publicly available, but the computer code is not. 			
-**The study's analytic data and computer code for the data analysis are publicly available. When the code is run on the analytic data, the findings are identical to the published results. **
+**The study's analytic data and computer code for the data analysis are publicly available. When the code is run on the analytic data, the findings are identical to the published results.**
 
 -------------------------- 	
 ####Question 4
@@ -34,7 +34,7 @@ The study's analytic data are publicly available, but the computer code is not.
 The original study had null findings. 			
 The original investigator does not want to make the analytic data available. 			
 The original study was conducted by a well-known investigator. 		
-**The original study was opportunistic in its timing and it would be difficult to find a similar context in which to repeat it. 	**
+**The original study was opportunistic in its timing and it would be difficult to find a similar context in which to repeat it.**
 
 -------------------------- 	
 ####Question 5
@@ -64,7 +64,7 @@ It transforms the computational results into figures and tables.
  
 Ensure that data analysis documents are always exported in PDF format. 			
 Require that data analysis summaries are always written in LaTeX. 			
-**Combine explanatory text and data analysis code in a single document. ** 	
+**Combine explanatory text and data analysis code in a single document.** 	
 Separate figures and tables from other data analytic summaries. 			
  
 
@@ -72,7 +72,7 @@ Separate figures and tables from other data analytic summaries.
 ####Question 8
 > What does it mean to weave a literate statistical program?
  
-**Transform the literate program into a human readable document. 	** 	
+**Transform the literate program into a human readable document.** 	
 Transform the literate program into a machine readable code file. 			
 Compress the literate program so that it takes up less space. 			
 Transform a literate program from R to python. 			
