@@ -15,7 +15,7 @@ I take my own data, analyze it again, and publish new findings.
  
 The investigator makes available his computer, on which the analysis was originally conducted. 			
 The data analysis is conducted using R.	
-The investigator's final publication is made available free of charge. 	Inorrect 	0.00 	
+The investigator's final publication is made available free of charge. 	
 **The investigator makes the analytic data publicly available.**
 
 -------------------------- 	
@@ -25,7 +25,7 @@ The investigator's final publication is made available free of charge. 	Inorrect
 The study's original authors re-run their computer code on their analytic data and confirm publicly that the findings match those of the published results. 			
 The study's analytic data and computer code are not publicly available, but the study was simple enough to be repeated by an independent investigator. 			
 The study's analytic data are publicly available, but the computer code is not. 			
-**The study's analytic data and computer code for the data analysis are publicly available. When the code is run on the analytic data, the findings are identical to the published results. 	Correct 	1.00**
+**The study's analytic data and computer code for the data analysis are publicly available. When the code is run on the analytic data, the findings are identical to the published results. **
 
 -------------------------- 	
 ####Question 4
@@ -34,14 +34,14 @@ The study's analytic data are publicly available, but the computer code is not.
 The original study had null findings. 			
 The original investigator does not want to make the analytic data available. 			
 The original study was conducted by a well-known investigator. 		
-**The original study was opportunistic in its timing and it would be difficult to find a similar context in which to repeat it. 	Correct 	1.00**
+**The original study was opportunistic in its timing and it would be difficult to find a similar context in which to repeat it. 	**
 
 -------------------------- 	
 ####Question 5
 > Which of the following is a reason why publishing reproducible research is increasingly important?
  
 Computing power is limited today, making it difficult to apply sophisticated statistical methods. 			
-The statistical methods for most studies can be accurately described using plain language. 	Inorrect 	0.00 	
+The statistical methods for most studies can be accurately described using plain language. 	 	
 **New technologies are increasing the rate of data collection, creating datasets that are more complex and extremely high dimensional.**
 Most studies today are small-scale and easily replicated. 			
  
@@ -50,7 +50,7 @@ Most studies today are small-scale and easily replicated.
 ####Question 6
 > What is the role of processing code in the research pipeline?
  
-It conducts the statistical analysis of the primary outcome. 	Inorrect 	0.00 	
+It conducts the statistical analysis of the primary outcome. 	
 It transforms the analytic data into computational results.
 
 **It transforms the measured data into analytic data.**
@@ -64,7 +64,7 @@ It transforms the computational results into figures and tables.
  
 Ensure that data analysis documents are always exported in PDF format. 			
 Require that data analysis summaries are always written in LaTeX. 			
-**Combine explanatory text and data analysis code in a single document. 	Correct 	1.00** 	
+**Combine explanatory text and data analysis code in a single document. ** 	
 Separate figures and tables from other data analytic summaries. 			
  
 
@@ -72,7 +72,7 @@ Separate figures and tables from other data analytic summaries.
 ####Question 8
 > What does it mean to weave a literate statistical program?
  
-**Transform the literate program into a human readable document. 	Correct 	1.00** 	
+**Transform the literate program into a human readable document. 	** 	
 Transform the literate program into a machine readable code file. 			
 Compress the literate program so that it takes up less space. 			
 Transform a literate program from R to python. 			
@@ -86,11 +86,11 @@ A program that views PDF files.
 A Unix-based computer system. 			
 A cloud-based computing service for running computations. 
 
-**A programming language like R. 	Correct 	1.00**
+**A programming language like R. 	**
 
-A web server for publishing documents. 	Inorrect 	0.00
+A web server for publishing documents. 	
 
-**A documentation language like LaTeX. 	Correct 	1.00**
+**A documentation language like LaTeX. **
 
 -------------------------- 	
 ####Question 10
@@ -98,7 +98,7 @@ A web server for publishing documents. 	Inorrect 	0.00
  
 **knitr allows for the use of markdown instead of LaTeX.**	
 knitr lacks features like caching of code chunks. 			
-knitr is written in python instead of R. 	Inorrect 	0.00 	
+knitr is written in python instead of R. 	 	
 knitr was developed by Friedrich Leisch. 			
  
 
